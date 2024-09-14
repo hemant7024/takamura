@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background-image: url("WhatsApp Image 2024-09-04 at 21.36.41_a4c21ea7.jpg");
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200vh;
+    background-color: rgba(38, 37, 37, 0.9); /* Black with 50% opacity */
+    pointer-events: none; /* Allows clicks to pass through */
+    z-index: -1; /* Ensures the overlay is behind any other content */
+}
+.main{
+    height: 200vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.nav{
+    height: 30%;
+}
+.nav .nav-upper{
+    height: 15%;
+    width: 100%;
+    background-color: #DF6C40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.nav-upper img{
+    height: 6vw;
+    width: 6vw;
+    border-radius: 50% ;
+}
+.nav .nav-lower{
+    height: 15%;
+    width: 100%;
+    background-color: #1a1512;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-lower .nav-lowerR{
+    display: flex;
+   align-items: center;
+   gap: 4vw;
+   margin-left: 2vw;
+   color: white;
+   font-size: 0.9vw;
+}
+.nav-lowerR a{
+    text-decoration: none;
+    color: white;
+}
+.nav-lower .nav-lower-l{
+    display: flex;
+    align-items: center;
+    gap: 0.7vw;
+    margin-right: 2vw;
+}
+.nav-lower-l .sign:hover{
+    /* background-color: #53504f; */
+    color: #d64106;
+}
+.nav-lower-l button{
+    padding: 0.5vw 0.6vw;
+    border-radius: 5vw;
+}
+.nav-lower-l .pub{
+    background-color: #DF6C40;
+    border: none;
+    color: white;
+}
+.nav-lower-l a{
+    text-decoration: none;
+    font-size: 0.9vw;
+}
+
+.nav-lower-l .sign{
+   border: none;
+   color: white;
+   background-color: #1a1512;
+}
+.nav-lower-l i{
+    font-size: 2vw;
+    color: #EFDFC8;
+    display: flex;
+    align-items: center;
+}
+
+/* Search */
+
+.search-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    bottom: 15vw;
+    
+}
+
+.content i{
+    background-color: #EFDFC8;
+    position: relative;
+    left: 3vw;
+    top: 0.3vw;
+    font-size: 1.5vw;
+
+}
+.content input{
+    padding: 0.5vw 4vw;
+    background-color: #EFDFC8;
+    border: none;
+    border-radius: 2vw;
+}
+.content select{
+    padding: 0.5vw 0;
+    background-color: transparent;
+    color: white;
+    border: 0.1vw solid #fff;
+    border-radius: 0.2vw;
+    margin-left: 2vw;
+    -webkit-appearance: none; /* Safari and Chrome */
+    -moz-appearance: none;    /* Firefox */
+    appearance: none; 
+}
+
+.content select option{
+    background-color: #22201D;
+    color: #fff;
+}
+
+/* groups */
+
+.group1{
+    height: 30%;
+    width: 100%;
+    position: relative;
+ 
+}
+.group1 p{
+   color: white;
+   margin-left: 8vw;
+       
+}
+.group2 p{
+   color: white;
+    margin-left: 8vw;
+}
+.groups{
+  position: relative;
+  bottom: 15vw;
+    line-height: 15vw;
+}
+.reviews{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+  
+}
+.reviews .rev1{
+    border-right: 2px solid #fff;
+    padding-right: 4vw;
+}

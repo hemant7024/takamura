@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background-color: #e5e5e5;
+}
+.main{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.nav{
+    height: 30vh;
+}
+.nav .nav-upper{
+    height: 30%;
+    width: 100%;
+    background-color: #DF6C40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.nav-upper img{
+    height: 6vw;
+    width: 6vw;
+    border-radius: 50% ;
+}
+.nav .nav-lower{
+    height: 30%;
+    width: 100%;
+    background-color: #1a1512;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-lower .nav-lowerR{
+    display: flex;
+   align-items: center;
+   gap: 4vw;
+   margin-left: 2vw;
+   color: white;
+   font-size: 0.9vw;
+}
+.nav-lowerR a{
+    text-decoration: none;
+    color: white;
+}
+.nav-lower .nav-lower-l{
+    display: flex;
+    gap: 0.7vw;
+    margin-right: 2vw;
+}
+.nav-lower-l button{
+    padding: 0.7vw 1vw;
+    border-radius: 5vw;
+}
+.nav-lower-l .pub{
+   background-color: #DF6C40;
+   border: none;
+   color: white;
+}
+.nav-lower-l .sign:hover{
+    /* background-color: #53504f; */
+    color: #d64106;
+}
+.nav-lower-l .sign{
+   border: none;
+   color: white;
+   background-color: #1a1512;
+   text-decoration: none;
+   padding: 0.7vw 1vw;
+   border-radius: 5vw;
+   font-size: 13px;
+   display: flex;
+   align-items: center;
+}
+.nav-lower-l i{
+    font-size: 2vw;
+    color: #EFDFC8;
+    display: flex;
+    align-items: center;
+}
+.card-container{
+    height: 90vh;
+    width: 40%;
+    position: relative;
+    left: 50%;
+    translate: -50%;
+    bottom: 8%;
+    border-radius: 0.7vw;
+    text-align: center;
+  
+    border: none;
+}
+.card-container .card{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 2vw;
+}
+.card-data .user-data{
+    display: flex;
+}
+.user-data input{
+    padding: 1vw 5vw;
+    margin-top: 1vw;
+    border-radius: 0.5vw;
+    border: none;
+    color: rgb(212 194 173);
+}
+.user-data input::placeholder{
+    position: relative;
+    right: 60px;
+}
+.user-data .user-email{
+    display: flex;
+    align-items: center;
+}
+.user-email i{
+    background-color: #fff;
+    position: relative;
+    right: 30px;
+    color: rgb(212 194 173);
+    top: 8px;
+}
+.user-pass i{
+    background-color: #fff;
+    position: relative;
+    right: 25px;
+    top: 1px;
+    color: rgb(212 194 173);
+}
+.user-pass input{
+    position: relative;
+    left: 8px;
+}
+.user-email #email{
+    margin-left: 12px;
+}
+.user-btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.user-btns button{
+    margin-bottom: 1vw;
+    padding: 0.9vw 0px;
+    border-radius: 0.5vw;
+    border: none;
+    background-color: #fff;
+    font-weight: 700;
+    width: 320px;
+   margin-left: 10px;
+}
+.user-btns #login{
+    /* background-color: #DF6C40; */
+    position: relative;
+    color: #1a1512;
+    overflow: hidden;
+    transition: background-color 0.5s ease-in-out;
+
+
+}
+#login::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #DF6C40;
+    color: #1a1512; /* Background color to fill */
+    z-index: 0;
+    transform: scaley(0); /* Start the background fill from 0 width */
+    transform-origin: bottom;
+    transition: transform 0.5s ease-in-out; /* Animation for fill effect */
+}
+
+#login:hover::before,
+#login:focus::before,
+#login:active::before {
+    transform: scaleX(1); /* Full width on click or hover */
+}
+#login span {
+    position: relative;
+    z-index: 1; /* Ensure text stays on top of the background fill */
+    color: black; /* Ensure text color is visible */
+}
+
+.card h2{
+    color: green;
+}

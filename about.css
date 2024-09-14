@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background-color: #FFFFEC;
+}
+.main{
+    width: 100%;
+    height: 200vh;
+    position: relative;
+    overflow: hidden;
+}
+.nav{
+    height: 30%;
+}
+.nav .nav-upper{
+    height: 15%;
+    width: 100%;
+    background-color:  #DF6C40;
+    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.nav-upper img{
+    height: 6vw;
+    width: 6vw;
+    border-radius: 50% ;
+}
+.nav .nav-lower{
+    height: 15%;
+    width: 100%;
+    background-color: #1A1512;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-lower .nav-lowerR{
+    display: flex;
+   align-items: center;
+   gap: 4vw;
+   margin-left: 2vw;
+   color: white;
+   font-size: 0.9vw;
+}
+.nav-lower-l .sign:hover{
+    /* background-color: #53504f; */
+    color: #d64106;
+}
+.nav-lowerR a{
+    text-decoration: none;
+    color: white;
+}
+.nav-lower .nav-lower-l{
+    display: flex;
+    gap: 0.7vw;
+    margin-right: 2vw;
+}
+.nav-lower-l button{
+    padding: 0..7vw 1vw;
+    border-radius: 5vw;
+}
+.nav-lower-l .pub{
+   background-color:  #DF6C40;
+   ;
+   border: none;
+   color: white;
+}
+.nav-lower-l .sign{
+   border: none;
+   color: white;
+   background-color: #1a1512;
+}
+.nav-lower-l i{
+    font-size: 2vw;
+    color: #EFDFC8;
+    display: flex;
+    align-items: center;
+}
+
+/* image part about */
+
+.about-photo .left{
+    /* background-color: red; */
+    width: 60%;
+    height: 50vh;
+}
+.left{
+    font-weight: 500;
+}
+.left img{
+    position: relative;
+    left: 20%;
+    top: 11vh;
+    height: 30%;
+    width: 40%;
+    border: 1px solid #272420;
+    box-shadow: 0px 4px 27px 0px #000000BF;
+    rotate: 32deg;
+    object-fit: cover; /* Ensures the image covers the container */
+     transform: skewX(8deg) skewY(335deg); /*Adjust scale value to stretch the image */
+     transform-origin: top left;  
+     font-size: 5vw;
+
+    
+} 
+.left p{
+    position: relative;
+    top: 10vw;
+    left: 9vw;
+    width: 50%;
+}
+.left span{
+   display: flex;
+   justify-content: center;
+
+}
+.left .txt3{
+   display: flex;
+   justify-content: center;
+
+}
+.left .txt4{
+   display: flex;
+   justify-content: center;
+   font-size: 2vw;
+
+}
+.left button{
+    background-color: #DF6C40;
+    padding: 1vw 2vw;
+    border-radius: 2vw;
+    color: #fff;
+    font-size: 30px;
+    border: none;
+    font-weight: 500;
+  position: relative;
+  left: 26%;
+  top: 50%;
+
+
+    
+}
+.about-photo .right{
+    width: 50%;
+    height: 100vh;
+}
+
+.right img{
+  position: relative;
+  height: 40vw;
+  width: 70vw;
+  left: 50vw;
+  bottom: 20vw;
+    
+}
+ /* lower */
+.main-lower{
+    background: linear-gradient(180deg, #272420 39.84%, #0C0C10 100%);
+    width: 100%;
+    /* height: 150vh; */
+    position: relative;
+    bottom: 26vw;
+   
+
+}
+ .main-lower-left{
+    width: 100%;
+    height: 60%;
+}
+ .main-lower-left img{
+    display: block;
+    height: 13vw;
+    width: 13vw;
+    position: relative;
+    top: 5vw;
+    margin-top: 3vw;
+}
+ .main-lower-left .img2{
+    width: 23vw;
+    position: relative;
+    left: 3vw;
+}
+.main-lower-mid p{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 3vw;
+    position: relative;
+    bottom: 25vw;
+    font-weight: 600;
+}
+.main-lower-mid .para-mid-lower{
+    line-height: 1.5px;
+    font-size: 1vw;
+}
+.main-lower-mid .p2{
+    margin-top: 10vw;
+}
+.main-lower-mid span{
+    position: relative;
+    top: 1.5vw;
+    right: 15.5vw;
+}
+
+/* mid lower icon */
+.mid-lower-icon i{
+    position: relative;
+    /* bottom: 15vw; */
+    color: #DF6C40;
+    gap: 5vw;
+    font-size: 2vw;
+    left: 43vw;
+    top: 5vw;
+    margin-left: 2vw;
+   
+}
+
+.mid-lower-right {
+    display: flex;
+    justify-content: center;
+
+}
+.mid-lower-right img{
+    position: relative;
+    display: block;
+    /* bottom: 150vw; */
+    height: 20vw;
+    width: 20vw;
+    left: 50vw;
+}
+
+
+

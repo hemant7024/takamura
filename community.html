@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="community.css">
+    <!-- <link rel="stylesheet" href="output.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="main">
+        <div class="nav">
+            <div class="nav-upper">
+                <img src="WhatsApp Image 2024-08-27 at 17.05.35_a1295a92.jpg" alt="">
+            </div>
+            <div class="nav-lower">
+                <div class="nav-lowerR">
+                    <a href="index.html">Home</a>
+                    <a href="search.html">Search</a>
+                    <p>MyLibrary</p>
+                    <a href="community.html">Community</a>
+                    <a href="about.html">About</a>
+                </div>
+                <div class="nav-lower-l">
+                    <a class="sign" href="sign.html">Sign In</a>
+                    <button class="pub">Publish</button>
+                    <i class="ri-account-circle-line"></i>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="search-input">
+            <div class="content">
+                <i class="ri-search-line"></i>
+                <input type="text" placeholder="Artists, groups and posts">
+                <select name="" id="myDropdown" size="1" onmouseover="expandDropdown()" onmouseout="collapseDropdown()">
+                    <option value="">Romance</option>
+                    <option value="">Action</option>
+                    <option value="">Horror</option>
+                    <option value="">Mystery</option>
+                    <option value="">Drama</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="groups">
+            <div class="group1">
+                <p>Following</p>
+                <div class="group1-photos">
+                    <a href=""></a>
+                </div>
+            </div>
+            <div class="group2">
+                <p>Groups</p>
+            </div>
+        </div>
+        <div class="reviews">
+                <p class="rev1">Recent</p>
+                <p class="rev1">Popular</p>
+            <p>Reviews</p>
+        </div>
+
+    </div>
+    <script src="search.js"></script>
+</body>
+
+</html>
